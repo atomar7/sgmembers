@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "sgmembers",
+    "packageName": "com.tomar.sgmembers",
+    "packageFolder": "com/tomar/sgmembers",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": false,
+    "enableSocialSignIn": true,
+    "rememberMeKey": "6bd1c01d8da6b8ffe519177223f50c13296497a0",
+    "testFrameworks": [
+      "cucumber"
+    ]
+  }
+}

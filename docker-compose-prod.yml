@@ -1,0 +1,11 @@
+jhipster-prod-postgresql:
+  container_name: sgmembers-prod-postgresql
+  image: postgres:9.4.5
+  # volumes:
+  # - ~/volumes/jhipster/sgmembers/prod-postgresql/:/var/lib/postgresql/
+  environment:
+  - POSTGRES_USER=sgmembers
+  - POSTGRES_PASSWORD=
+  ports:
+  - "5432:5432"
+
